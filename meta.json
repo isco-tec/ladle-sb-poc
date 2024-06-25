@@ -27,6 +27,17 @@
       "namedExport": "InputExamples",
       "meta": {}
     },
+    "lorem-ipsum--lorem-ipsum-stories": {
+      "name": "Lorem ipsum stories",
+      "levels": [
+        "Lorem ipsum"
+      ],
+      "locStart": 1,
+      "locEnd": 14,
+      "filePath": "src/components/LoremIpsum.stories.tsx",
+      "namedExport": "LoremIpsumStories",
+      "meta": {}
+    },
     "probability-display--probability-display-examples": {
       "name": "Probability display examples",
       "levels": [
