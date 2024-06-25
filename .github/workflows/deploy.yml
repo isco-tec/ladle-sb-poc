@@ -24,6 +24,8 @@ jobs:
         run: npm install
 
       - name: Build Storybook
+        env:
+          GITHUB_PAGES: true
         run: npm run sb-build
 
       - name: Deploy to GitHub Pages
