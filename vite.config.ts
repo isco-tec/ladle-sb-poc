@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/ladle-sb-poc/',
+  // base: '/ladle-sb-poc/',
   plugins: [react()],
 });
