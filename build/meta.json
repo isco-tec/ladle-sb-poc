@@ -1,0 +1,42 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "hello-world--hello-world-stories": {
+      "name": "Hello world stories",
+      "levels": [
+        "Hello world"
+      ],
+      "locStart": 1,
+      "locEnd": 7,
+      "filePath": "src/components/HelloWorld.stories.tsx",
+      "namedExport": "HelloWorldStories",
+      "meta": {}
+    },
+    "input--input-examples": {
+      "name": "Input examples",
+      "levels": [
+        "Input"
+      ],
+      "locStart": 3,
+      "locEnd": 5,
+      "filePath": "src/components/Input.stories.tsx",
+      "namedExport": "InputExamples",
+      "meta": {}
+    },
+    "probability-display--probability-display-examples": {
+      "name": "Probability display examples",
+      "levels": [
+        "Probability display"
+      ],
+      "locStart": 3,
+      "locEnd": 13,
+      "filePath": "src/components/ProbabilityDisplay.stories.tsx",
+      "namedExport": "ProbabilityDisplayExamples",
+      "meta": {}
+    }
+  }
+}
